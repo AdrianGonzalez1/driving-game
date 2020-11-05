@@ -7,3 +7,17 @@ body {
 .racecar {
   width: 100%;
 }
+
+.south {
+ transform: rotate(90deg);
+}
+
+.north {
+  transform: rotate(-90deg);
+}
+.west {
+  transform: rotate(-180deg);
+}
+.east {
+  transform: rotate(180deg);
+}
