@@ -1,0 +1,9 @@
+body {
+  background-color: green;
+}
+.racecar-container {
+  width: 15%;
+}
+.racecar {
+  width: 100%;
+}
