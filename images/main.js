@@ -1,7 +1,8 @@
 var racecarImg = document.querySelector('.racecar');
 
 var car = {
-direction: ''
+direction: '',
+location: ''
 }
 
 
@@ -21,4 +22,6 @@ window.addEventListener('keydown', function() {
     racecarImg.className = 'racecar south';
     car.direction = 'south';
   }
+
+
 })
