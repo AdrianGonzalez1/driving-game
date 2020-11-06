@@ -1,9 +1,11 @@
 body {
   background-color: green;
 }
+
 .racecar-container {
   width: 15%;
 }
+
 .racecar {
   width: 100%;
 }
@@ -15,9 +17,10 @@ body {
 .north {
   transform: rotate(-90deg);
 }
-.west {
-  transform: rotate(-180deg);
-}
+
 .east {
+  transform: rotate(0deg);
+}
+.west {
   transform: rotate(180deg);
 }
